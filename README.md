@@ -1,3 +1,9 @@
+# About DataMex 
+
+DataMex is a personal proyect under the Creative Commons Attribution 4.0 International License.
+The goal is to analyze some of the available datasets on several aspects of mexican public life.
+
+
 # Local install instructions
 
 The notebooks use Python 3 and some data analysis packages such as Numpy, Pandas,
@@ -18,7 +24,7 @@ scikit-learn, and matplotlib.
 ```sh
 # Clone this repo
 git clone https://github.com/ArturoAmorQ/DataMex
-cd scikit-learn-mooc
+cd DataMex
 # Create a conda environment with the required packages for this tutorial:
 conda env create -f environment.yml
 ```
@@ -58,9 +64,4 @@ Using python in /home/lesteve/miniconda3/envs/scikit-learn-course
 ```sh
 # Activate your conda environment
 conda activate DataMex
-jupyter notebook index.md
 ```
-
-`index.md` is an index file helping to navigate the notebooks.
-All the Jupyter notebooks are located in the `notebooks` folder.
-
